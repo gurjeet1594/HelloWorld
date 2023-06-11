@@ -6,7 +6,7 @@ public void main() throws Exception{
     // action
     App.main(null);
     // assertion
-    Assert.assertEquals("hello world", bos.toString());
+    Assert.assertEquals("Hello world!", bos.toString());
     // undo the binding in System
     System.setOut(originalOut);
 }
